@@ -1,2 +1,3 @@
 # Discord-Dmchrasher-bot
-dm patlatan bot 
+# nasıl kurulur?
+## 1-test
