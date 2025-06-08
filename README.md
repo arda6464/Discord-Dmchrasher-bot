@@ -92,7 +92,7 @@
 
 ---
 ## Not
-* Bu altyapı discord.gg/vsc grubundan alınmıştır
+* Bu altyapı discord.gg/vsc grubundan alınmış ve geliştirilmiştir.
 
 
 
