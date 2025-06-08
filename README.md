@@ -91,6 +91,8 @@
   ```
 
 ---
+## Not
+* Bu altyapı discord.gg/vsc grubundan alınmıştır
 
 
 
