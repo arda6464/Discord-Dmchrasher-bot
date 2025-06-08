@@ -1,0 +1,184 @@
+{
+  "general": {
+    "welcome": "Welcome! Your account information is listed below.",
+    "error": "❌ An error occurred!",
+    "success": "✅ Operation completed successfully!",
+    "noPermission": "You don't have permission to use this command!",
+    "cooldown": "You need to wait {time} seconds to use this command again!",
+    "unknown": "Unknown",
+    "help": "✨ Contact moderators for help!"
+  },
+  "premium": {
+    "notPremium": "You need to be a Premium member to use this feature!",
+    "notUltraPremium": "You need to be an UltraPremium member to use this feature!",
+    "alreadyPremium": "You are already a Premium member!",
+    "alreadyUltraPremium": "You are already an UltraPremium member!",
+    "premiumActivated": "Premium membership activated!",
+    "ultraPremiumActivated": "UltraPremium membership activated!",
+    "premiumExpired": "Your Premium membership has expired!",
+    "ultraPremiumExpired": "Your UltraPremium membership has expired!",
+    "premiumInfo": "Your Premium membership info:\nExpiry Date: {date}\nTime Remaining: {time}",
+    "ultraPremiumInfo": "Your UltraPremium membership info:\nExpiry Date: {date}\nTime Remaining: {time}",
+    "premium": "Premium",
+    "ultraPremium": "Ultra Premium",
+    "inactive": "Not Active",
+    "activeUntil": "Active until {date}",
+    "invalidType": "❌ Invalid premium type! Please use 'premium' or 'ultraPremium'.",
+    "invalidDuration": "❌ Invalid duration! Duration must be between {min} and {max} days.",
+    "alreadyPremium": "❌ You already have an active Premium membership!",
+    "alreadyUltraPremium": "❌ You already have an active Ultra Premium membership!",
+    "premiumActivated": "✅ Premium Membership Activated",
+    "ultraPremiumActivated": "✅ Ultra Premium Membership Activated",
+    "activationInfo": "Your {type} membership has been activated for {duration} days.\nEnd date: {endDate}",
+    "features": "Features",
+    "thankYou": "Thank you for your premium membership!",
+    "activationTitle": "Premium Activation",
+    "activationHelp": "You can use the following commands to activate premium membership:",
+    "activationFooter": "Premium memberships are charged daily.",
+    "statusTitle": "Premium Status",
+    "premiumStatus": "Premium Status",
+    "ultraPremiumStatus": "Ultra Premium Status",
+    "noData": "❌ You don't have any premium membership data yet.",
+    "checkFooter": "You can use 't!premium check' to check your premium status."
+  },
+  "commands": {
+    "premium": {
+      "activate": "Premium membership activated!",
+      "deactivate": "Premium membership deactivated!",
+      "check": "Premium status checked!",
+      "extend": "Premium duration extended!",
+      "username": "Username",
+      "id": "ID",
+      "joinDate": "Server join date",
+      "availableBots": "Available bots",
+      "lastUsed": "Last used",
+      "status": "Premium Status",
+      "title": "💎 Premium Features",
+      "description": "Features you'll get with premium membership:",
+      "features": "Features",
+      "price": "Price",
+      "days": "days",
+      "footer": "Use t!premium activate command for premium membership"
+    },
+    "ultrapremium": {
+      "activate": "UltraPremium membership activated!",
+      "deactivate": "UltraPremium membership deactivated!",
+      "check": "UltraPremium status checked!",
+      "extend": "UltraPremium duration extended!"
+    },
+    "language": {
+      "title": "Language Settings",
+      "description": "Available languages:",
+      "current": "Current language: {lang}",
+      "changed": "Language successfully changed!",
+      "error": "Invalid language code!"
+    },
+    "help": {
+      "title": "📘 Command Help Menu",
+      "description": "Below is a list of all available commands.",
+      "categories": {
+        "general": "🔰 General Commands",
+        "premium": "💎 Premium Commands",
+        "moderation": "👮‍♂️ Moderation Commands"
+      },
+      "commands": {
+        "account": {
+          "name": "🎉 t!account",
+          "description": "Detailed information about your account (Premium status, statistics, features)"
+        },
+        "language": {
+          "name": "🛠️ t!lang",
+          "description": "Changes bot language (tr/en)"
+        },
+        "active": {
+          "name": "🤖 t!active",
+          "description": "Shows the number of active bots"
+        },
+        "dm": {
+          "name": "📩 t!dm",
+          "description": "Sends spam messages to the specified user"
+        },
+        "zdm": {
+          "name": "🎯 t!zdm",
+          "description": "Sends custom spam messages to the specified user"
+        },
+        "premium": {
+          "name": "💎 t!pre",
+          "description": "Shows premium membership benefits and prices"
+        },
+        "membership": {
+          "name": "🎫 t!membership",
+          "description": "Gives premium membership to a user (Moderators only)"
+        }
+      },
+      "premiumFeatures": {
+        "title": "🌟 Premium Features",
+        "premium": {
+          "title": "Premium Membership",
+          "features": [
+            "• 30 bot usage",
+            "• 1000 message limit",
+            "• 10s cooldown",
+            "• Special commands"
+          ],
+          "price": "50 TL / day"
+        },
+        "ultraPremium": {
+          "title": "Ultra Premium Membership",
+          "features": [
+            "• 50 bot usage",
+            "• Unlimited messages",
+            "• 5s cooldown",
+            "• Special commands",
+            "• Priority support"
+          ],
+          "price": "100 TL / day"
+        }
+      },
+      "footer": "✨ Contact moderators for help!",
+      "note": "💡 Note: Premium memberships are charged daily and can be given for up to 30 days."
+    },
+    "account": {
+      "title": "👤 Account Information",
+      "description": "All information about your account is listed below.",
+      "userInfo": "👤 User Information",
+      "username": "Username",
+      "id": "User ID",
+      "joinDate": "Join Date",
+      "premiumInfo": "💎 Premium Information",
+      "premiumStatus": "Premium Status",
+      "premiumEndDate": "Premium End Date",
+      "ultraPremiumEndDate": "UltraPremium End Date",
+      "features": "✨ Features",
+      "availableBots": "Available Bots",
+      "bots": "bots",
+      "messageLimit": "Message Limit",
+      "messages": "messages",
+      "cooldown": "Cooldown",
+      "footer": "💎 Use t!pre command for premium membership",
+      "stats": "📊 Statistics",
+      "totalCommands": "Total Commands",
+      "mostUsedCommand": "Most Used Command",
+      "firstSeen": "First Seen"
+    },
+    "ultraPremium": {
+      "title": "🌟 UltraPremium Features",
+      "description": "Features you'll get with UltraPremium membership:",
+      "footer": "Use t!premium activate command for UltraPremium membership"
+    },
+    "zdm": {
+      "usage": "Usage: t!zdm <user_id> <message_count> <message>",
+      "invalidCount": "Message count must be a number!",
+      "success": "🎯 ID added: {userId}, message: \"{content}\" ({count} times)"
+    },
+    "active": "Total active bots: {count}",
+    "membership": {
+      "title": "🎫 Membership Management",
+      "usage": "You can use the following commands to give premium membership to a user:",
+      "footer": "Only moderators can use this command.",
+      "noUser": "❌ Please mention a user!",
+      "user": "👤 User",
+      "givenBy": "👮‍♂️ Given By"
+    }
+  }
+}

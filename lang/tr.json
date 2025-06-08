@@ -1,0 +1,174 @@
+{
+  "general": {
+    "welcome": "Hoş geldiniz! Hesap bilgileriniz aşağıda listelenmiştir.",
+    "error": "❌ Bir hata oluştu!",
+    "success": "✅ İşlem başarıyla tamamlandı!",
+    "noPermission": "Bu komutu kullanmak için yetkiniz yok!",
+    "cooldown": "Bu komutu tekrar kullanmak için {time} saniye beklemelisiniz!",
+    "unknown": "Bilinmiyor",
+    "help": "✨ Yardım için moderatörlere ulaşın!"
+  },
+  "premium": {
+    "notPremium": "Bu özelliği kullanmak için Premium üye olmalısınız!",
+    "notUltraPremium": "Bu özelliği kullanmak için UltraPremium üye olmalısınız!",
+    "alreadyPremium": "❌ Zaten aktif bir Premium üyeliğiniz var!",
+    "alreadyUltraPremium": "❌ Zaten aktif bir Ultra Premium üyeliğiniz var!",
+    "premiumActivated": "✅ Premium Üyelik Aktifleştirildi",
+    "ultraPremiumActivated": "✅ Ultra Premium Üyelik Aktifleştirildi",
+    "premiumExpired": "Premium üyeliğiniz sona erdi!",
+    "ultraPremiumExpired": "UltraPremium üyeliğiniz sona erdi!",
+    "premiumInfo": "Premium üyelik bilgileriniz:\nBitiş Tarihi: {date}\nKalan Süre: {time}",
+    "ultraPremiumInfo": "UltraPremium üyelik bilgileriniz:\nBitiş Tarihi: {date}\nKalan Süre: {time}",
+    "premium": "Premium",
+    "ultraPremium": "Ultra Premium",
+    "inactive": "Aktif Değil",
+    "activeUntil": "{date} tarihine kadar aktif",
+    "invalidType": "❌ Geçersiz premium türü! Lütfen 'premium' veya 'ultraPremium' kullanın.",
+    "invalidDuration": "❌ Geçersiz süre! Süre {min} ile {max} gün arasında olmalıdır.",
+    "activationInfo": "{type} üyeliğiniz {duration} gün için aktifleştirildi.\nBitiş tarihi: {endDate}",
+    "features": "Özellikler",
+    "thankYou": "Premium üyeliğiniz için teşekkür ederiz!",
+    "activationTitle": "Premium Aktivasyon",
+    "activationHelp": "Premium üyelik aktivasyonu için aşağıdaki komutları kullanabilirsiniz:",
+    "activationFooter": "Premium üyelikler günlük olarak ücretlendirilir.",
+    "statusTitle": "Premium Durum",
+    "premiumStatus": "Premium Durumu",
+    "ultraPremiumStatus": "Ultra Premium Durumu",
+    "noData": "❌ Henüz premium üyelik bilginiz bulunmuyor.",
+    "checkFooter": "Premium durumunuzu kontrol etmek için 't!premium check' komutunu kullanabilirsiniz."
+  },
+  "commands": {
+    "premium": {
+      "activate": "Premium üyelik aktifleştirildi!",
+      "deactivate": "Premium üyelik deaktif edildi!",
+      "check": "Premium durumunuz kontrol edildi!",
+      "extend": "Premium süreniz uzatıldı!",
+      "username": "Hesap adı",
+      "id": "ID",
+      "joinDate": "Sunucuya katılım tarihi",
+      "availableBots": "Kullanılabilir bot sayısı",
+      "lastUsed": "Son kullanım",
+      "status": "Premium Durumu"
+    },
+    "ultrapremium": {
+      "activate": "UltraPremium üyelik aktifleştirildi!",
+      "deactivate": "UltraPremium üyelik deaktif edildi!",
+      "check": "UltraPremium durumunuz kontrol edildi!",
+      "extend": "UltraPremium süreniz uzatıldı!"
+    },
+    "language": {
+      "title": "Dil Ayarları",
+      "description": "Mevcut diller:",
+      "current": "Mevcut dil: {lang}",
+      "changed": "Dil başarıyla değiştirildi!",
+      "error": "Geçersiz dil kodu!"
+    },
+    "help": {
+      "title": "📘 Komut Yardım Menüsü",
+      "description": "Aşağıda mevcut tüm komutların listesi bulunmaktadır.",
+      "categories": {
+        "general": "🔰 Genel Komutlar",
+        "premium": "💎 Premium Komutlar",
+        "moderation": "👮‍♂️ Moderasyon Komutları"
+      },
+      "commands": {
+        "account": {
+          "name": "🎉 t!hesabım",
+          "description": "Hesabınız hakkında detaylı bilgiler (Premium durumu, istatistikler, özellikler)"
+        },
+        "language": {
+          "name": "🛠️ t!lang",
+          "description": "Bot dilini değiştirir (tr/en)"
+        },
+        "active": {
+          "name": "🤖 t!aktif",
+          "description": "Aktif bot sayısını gösterir"
+        },
+        "dm": {
+          "name": "📩 t!dm",
+          "description": "Belirttiğiniz kullanıcıya spam mesajları yollar"
+        },
+        "zdm": {
+          "name": "🎯 t!zdm",
+          "description": "Belirttiğiniz kullanıcıya özel spam mesajları yollar"
+        },
+        "premium": {
+          "name": "💎 t!pre",
+          "description": "Premium üyelik avantajlarını ve fiyatlarını gösterir"
+        },
+        "membership": {
+          "name": "🎫 t!üyelik",
+          "description": "Kullanıcıya premium üyelik verir (Sadece moderatörler)"
+        }
+      },
+      "premiumFeatures": {
+        "title": "🌟 Premium Özellikleri",
+        "premium": {
+          "title": "Premium Üyelik",
+          "features": [
+            "• 30 bot kullanımı",
+            "• 1000 mesaj limiti",
+            "• 10s bekleme süresi",
+            "• Özel komutlar"
+          ],
+          "price": "50 TL / gün"
+        },
+        "ultraPremium": {
+          "title": "Ultra Premium Üyelik",
+          "features": [
+            "• 50 bot kullanımı",
+            "• Sınırsız mesaj",
+            "• 5s bekleme süresi",
+            "• Özel komutlar",
+            "• Öncelikli destek"
+          ],
+          "price": "100 TL / gün"
+        }
+      },
+      "footer": "✨ Yardım için moderatörlere ulaşın!",
+      "note": "💡 Not: Premium üyelikler günlük olarak ücretlendirilir ve maksimum 30 gün verilebilir."
+    },
+    "account": {
+      "title": " Hesap Bilgileri",
+      "description": "Hesabınızla ilgili tüm bilgiler aşağıda listelenmiştir.",
+      "userInfo": " Kullanıcı Bilgileri",
+      "username": "Kullanıcı Adı",
+      "id": "",
+      "joinDate": "Katılma Tarihi",
+      "premiumInfo": " Premium Bilgileri",
+      "premiumStatus": "Premium Durumu",
+      "premiumEndDate": "Premium Bitiş",
+      "ultraPremiumEndDate": "UltraPremium Bitiş",
+      "features": "Özellikler",
+      "availableBots": "Kullanılabilir Bot",
+      "bots": "bot",
+      "messageLimit": "Mesaj Limiti",
+      "messages": "mesaj",
+      "cooldown": "Bekleme Süresi",
+      "footer": "Premium üyelik için t!pre komutunu kullanın",
+      "stats": "İstatistikler",
+      "totalCommands": "Toplam Komut",
+      "mostUsedCommand": "En Çok Kullanılan Komut",
+      "firstSeen": "İlk Görülme"
+    },
+    "ultraPremium": {
+      "title": "🌟 UltraPremium Özellikler",
+      "description": "UltraPremium üyelik ile kazanacağınız özellikler:",
+      "footer": "UltraPremium üyelik için t!premium activate komutunu kullanın"
+    },
+    "zdm": {
+      "usage": "Kullanım: t!zdm <kullanıcı_id> <mesaj_sayısı> <mesaj>",
+      "invalidCount": "Mesaj sayısı bir sayı olmalı!",
+      "success": "🎯 ID eklendi: {userId}, mesaj: \"{content}\" ({count} defa)"
+    },
+    "active": "Toplam aktif bot sayısı: {count}",
+    "membership": {
+      "title": "�� Üyelik Yönetimi",
+      "usage": "Bir kullanıcıya premium üyelik vermek için aşağıdaki komutları kullanabilirsiniz:",
+      "footer": "Sadece moderatörler bu komutu kullanabilir.",
+      "noUser": "❌ Lütfen bir kullanıcı etiketleyin!",
+      "user": "👤 Kullanıcı",
+      "givenBy": "👮‍♂️ Veren Kişi"
+    }
+  }
+}
